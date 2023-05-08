@@ -1,0 +1,1 @@
+# QlikCloud_DocumentOEMGovernance_RolesResponsabilities
