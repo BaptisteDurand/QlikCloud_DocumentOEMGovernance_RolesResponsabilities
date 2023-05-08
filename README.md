@@ -38,7 +38,6 @@ To manage users and content security Qlik provides differents tools :
 - [Spaces](https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/Spaces/Spaces.htm) : Spaces are sections of the Qlik Cloud Analytics hub used to both:
   - Collaboratively develop apps
   - Control access to apps.
- 
 There are 2 types of space : Shared or Managed with different security level.
 
 # 3. Qlik Cloud : Simple implementation
