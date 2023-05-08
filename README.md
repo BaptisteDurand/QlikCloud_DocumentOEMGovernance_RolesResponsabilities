@@ -38,9 +38,27 @@ To manage users and content security Qlik provides differents tools :
 - [Spaces](https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/Spaces/Spaces.htm) : Spaces are sections of the Qlik Cloud Analytics hub used to both:
   - Collaboratively develop apps
   - Control access to apps.
-There are 2 types of space : Shared or Managed with different security level.
 
-# 3. Qlik Cloud : Simple implementation
+# 5. Spaces : Difference and app development lifecycle
+
+For analytics, there are 3 kind of [spaces](https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/Spaces/Spaces.htm) : 
+- **Personal** : Your own private work area. If you have the entitlement you can create content as application or data connections.
+- [**Shared**](https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/Spaces/working-in-shared-spaces.htm) : Used to develop apps collaboratively and share them with other users. Shared spaces are for development, so there is no governed self-service. User content as sheet can be only *Private* or *Public*.
+- [**Managed**](https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/Spaces/working-in-managed-spaces.htm) : Used for providing governed access to apps with strict access control both for the app and the app data. Managed spaces proposed governed self-service. User content as sheet can be *Private* or *Community*. Core product sheets (i.e. *Public*) cannot be edit by end-user. 
+
+*Note : There is also Data Space for Data Integration project, out of scope for the current use case.*
+
+Permissions in space can be set for each user our a group of users based on their Idp groups.
+Permissions management are different between [*Shared*](https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/Spaces/managing-shared-spaces.htm) and [*Managed*](https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/Spaces/working-in-managed-spaces.htm) space.
+
+
+
+Here a example of a application lifecycle workflow.
+
+It is one starting point to built your own workflow. Thanks to Qlik API, Qlik Application Automation and Qlik Data connections you can implement advanced development process with versioning.
+
+
+# 4. Qlik Cloud : Simple implementation
 
 To implement
 
