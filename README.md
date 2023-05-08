@@ -60,6 +60,27 @@ Note :
 - App in managed space cannot be exported. Your master branch or main application must be kept in a shared space in parallel of publishing it in a managed space.
 - That is a starting point to built your own workflow. Thanks to Qlik API, Qlik Application Automation and Qlik Data connections you can implement advanced development process with versioning. check this [video on Github integration in Qlik Application Automation](https://www.youtube.com/watch?v=brLxm8Liz5Y)
 
+### Qlik App development and Self-Service : What's the difference?
+
+**Sheets development in a shared space**
+
+- Collaborative work on design is possible by using native features as ”My Sheets”, “Make Public Sheets”.
+- All user granted with *Can Edit* can create and publish sheets, ownership is not required.
+- It allows to create based sheets in an application
+
+![image](https://user-images.githubusercontent.com/24877503/236949725-75b84563-3eac-487e-a421-223316760b9f.png)
+
+**Self-Service in a managed space**
+
+- Public sheets are managed by your product team.
+- Quality is ensured by the development process - It is your core product.
+- Self-Service sheets are managed by contributors (Customers in our example).
+- When you release a new version of the application only Public Sheets are overwrite. Users content is kept.
+
+![image](https://user-images.githubusercontent.com/24877503/236950731-a984e47e-b1c6-4135-b74e-2ef3a96c1b91.png)
+
+![image](https://user-images.githubusercontent.com/24877503/236950509-1fca8e28-cbb9-4a55-8eaa-6f3b282131aa.png)
+
 ### Some considerations in our OEM use case
 
 - In a multi tenant context, development will be done in one specific tenant. Then, the app template or product will be deploy to customers tenant.
@@ -129,7 +150,7 @@ The goal of this OEM use case is to present a simple configuration to :
 - Configure the main security settings
 - Start to consider application development workflows  
 
-Recomended next step : 
+Recomended next steps : 
 - Implement authentication with groups management
 - Deep dive in Qlik application develomment and deployment
 - Consider advanced *Active Intelligence* capabilities as Qlik Reporting or AutoML.
