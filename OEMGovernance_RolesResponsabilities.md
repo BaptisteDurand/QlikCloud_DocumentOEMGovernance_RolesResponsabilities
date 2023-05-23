@@ -1,6 +1,13 @@
-# Context
+On the next slide you will find a live demo. We created 4 sample users, each with separate group memberships from "your SaaS Platform" which wants to embed Qlik Sense.
 
-In a OEM use case, we have to think the security and users management at 2 levels : 
+## Typical users in your customer specific tenant  
+- John, can only display 
+- Linda, can copy and create private sheets 
+- Martin and Paul would normally create content or manage the environment (but are limited here because we are in a public demo environment).
+
+# Deep dive into governed self service
+
+In a OEM use case, we have to think about security and users management at 2 levels: 
 - Multi tenant : OEM partner manages one tenant for each customer.
 - Customer tenant : In a tenant end-users can have different profiles and permissions giving access to several applications with different level of capabilities (example : Self-Service)
 
