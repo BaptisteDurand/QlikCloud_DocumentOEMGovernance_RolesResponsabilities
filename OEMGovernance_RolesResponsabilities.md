@@ -90,7 +90,7 @@ Note :
 
 ### Some considerations in our OEM use case
 
-- In a multi tenant context, development will be done in one specific tenant. Then, the app template or product will be deploy to customers tenant.
+- In a multi tenant context, development will be done in one specific tenant. Then, the app template or product will be deployed to customers tenant.
 - In customer tenants shared spaces will be used anyway to import the applications before publishing.
 - Edit role in a shared space allows users to create data connections, meaning that **we don't recommend to open shared space to end-customers with an edit role**.
 - For OEM, **we don't recommend to grant end-customers to create content in personnal space** (at least for data connections). 
