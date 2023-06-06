@@ -74,7 +74,7 @@ Note :
 
 - Public sheets are managed by your product team.
 - Quality is ensured by the development process - It is your core product which you support.
-- Self-Service sheets are managed by contributors (Customers in our example).
+- Self-Service sheets are managed by contributors (meaning your end-customers or your professional services).
 - When you release a new version of the application only Public Sheets are overwritten. User content is kept.
 
 ![image](https://user-images.githubusercontent.com/24877503/236950731-a984e47e-b1c6-4135-b74e-2ef3a96c1b91.png)
