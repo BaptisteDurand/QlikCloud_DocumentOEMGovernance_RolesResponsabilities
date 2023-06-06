@@ -112,7 +112,7 @@ He needs :
 - To have access to a shared space to develop applications with at least the *Can edit* role
 - To have a access to a managed space to publish applications for internal testing with at least *Can publish*	and *Can contribute* 
 
-According to the size of the developer team additional roles can be granted and revoked to allow a fine grained authorization model to ensure an optimized collaboration between developers (even with GIT version control). 
+According to the size of the developer team additional roles can be granted and revoked to allow a fine grained authorization model to ensure an optimized collaboration between developers (even with [GIT version control](https://youtu.be/brLxm8Liz5Y)). 
 
 ### Contributor - *Linda*
 
