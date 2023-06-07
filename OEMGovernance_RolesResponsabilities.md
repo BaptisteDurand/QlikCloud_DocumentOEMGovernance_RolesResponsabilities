@@ -148,7 +148,7 @@ The goal of this OEM use case is to present a simple configuration to :
 - Configure the main security settings
 - Start to consider application development workflows  
 
-Recomended next steps : 
+Recommended next steps : 
 - Implement authentication with groups management
-- Deep dive in Qlik application develomment and deployment
+- Deep dive in Qlik application development and deployment
 - Consider advanced *Active Intelligence* capabilities as Qlik Reporting or AutoML.
